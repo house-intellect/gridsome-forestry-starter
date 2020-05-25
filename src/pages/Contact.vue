@@ -19,7 +19,6 @@
   </p>
 </form>
 
-      </form>
 
     </div>
   </Layout>

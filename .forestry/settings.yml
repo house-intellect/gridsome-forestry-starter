@@ -6,14 +6,14 @@ webhook_url:
 sections:
 - type: directory
   path: projects
-  label: Projects
+  label: Статьи наверху главной страницы
   create: documents
   match: "**/*.md"
   templates:
   - project
 - type: directory
   path: journal
-  label: Journal
+  label: Статьи внизу главной страницы
   create: documents
   match: "**/*.md"
   templates:

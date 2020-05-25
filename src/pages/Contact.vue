@@ -7,25 +7,17 @@
         <p>Leave me a note with any questions you might have, I'll get back to you as soon as possible.</p>
       </div>
 
-      <form class="contact-form" name="contact">
-
-        <div class="sender-info">
-          <div>
-            <label for="name" class="label">Your name</label>
-            <input type="text" name="name" />
-          </div>
-          <div>
-            <label for="email" class="label">Your email</label>
-            <input type="email" name="email" />
-          </div>
-        </div>
-
-        <div class="message">
-          <label for="message" class="label">Message</label>
-          <textarea name="message"></textarea>
-        </div>
-
-        <button class="button">Submit form</button>
+<form class="contact-form" name="contact" netlify>
+  <p>
+    <label>Name <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Email <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
 
       </form>
 
